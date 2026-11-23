@@ -1,5 +1,4 @@
 #include <stdio.h>
- 
 void swap(int *a, int *b);
  
 int main(void)
@@ -10,7 +9,7 @@ int main(void)
     printf("%d,%d", a, b);
     return 0;
 }
- 
+
 void swap(int *a, int *b)
 {
     int temp = *a;
